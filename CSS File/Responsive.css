@@ -1,0 +1,201 @@
+/* header and 1st two sections */
+@media (max-width: 992px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .highlight {
+        font-size: 3rem;
+    }
+    
+    .hero-description {
+        font-size: 1.5rem;
+    }
+    
+    .info-title {
+        font-size: 2rem;
+    }
+    
+    .info-subtitle {
+        font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .header-container {
+      padding: 0 15px; /* Slightly reduce padding on mobile */
+    }
+    
+    .logo-container {
+      margin-right: 0; /* Reset for mobile */
+    }
+    .hero-bg-image {
+      object-position: center center;
+    }
+    .glow-image {
+       height: 350px; /* Reduced from 500px */
+     }
+    .mobile-menu-toggle {
+        display: block;
+    }
+    .nav-menu {
+      position: fixed;
+      top: 100px;
+      left: 0;
+      width: 100%;
+      background: #0F172A;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px 0;
+      transform: translateY(-150%);
+      opacity: 0;
+    }
+    
+    .nav-menu.active {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    
+    .nav-list {
+      flex-direction: column;
+      gap: 25px; /* Increased from 15px */
+      text-align: center;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .highlight {
+        font-size: 2.3rem;
+    }
+    
+    .hero-description {
+        font-size: 1.2rem;
+    }
+    
+    .hero-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .info-content {
+        padding: 30px 20px;
+    }
+    
+    .info-logo-img {
+        width: 200px;
+        margin-top: -50px;
+    }
+    
+    .info-title {
+        font-size: 1.8rem;
+    }
+    
+    .info-subtitle {
+        font-size: 1.3rem;
+    }
+    /* course section*/
+    .course-card {
+        flex-direction: column;
+    }
+    
+    .course-card:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+    
+    .course-image, .course-content {
+        padding: 20px;
+        width: 100%;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    /*Gallery section*/
+    .gallery-title {
+        font-size: 2.5rem;
+    }
+    
+    .category-title {
+        font-size: 2rem;
+        margin-bottom: 60px;
+    }
+    
+    .container {
+        width: 280px;
+        height: 380px;
+    }
+    
+    .category-spacer {
+        height: 40px;
+    }
+        .copyright-footer {
+        padding: 15px 10px;
+    }
+    
+    .footer-copyright p {
+        font-size: 0.8rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .logo-title {
+        font-size: 1.5rem;
+    }
+    
+    .logo-subtitle {
+        font-size: 0.9rem;
+    }
+    
+    .hero-title {
+        font-size: 1.8rem;
+    }
+    
+    .highlight {
+        font-size: 2rem;
+    }
+    
+    .info-title {
+        font-size: 1.5rem;
+    }
+    
+    .info-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .contact-item {
+        font-size: 1rem;
+    }
+    
+    .info-register-btn {
+        padding: 12px 30px;
+        font-size: 1.1rem;
+    }
+  }
+  /* Gallery section*/
+  @media (max-width: 480px) {
+    .gallery-title {
+        font-size: 2rem;
+    }
+    
+    .category-title {
+        font-size: 1.8rem;
+        margin-bottom: 50px;
+    }
+    
+    .container {
+        width: 240px;
+        height: 320px;
+    }
+    
+    .category-spacer {
+        height: 30px;
+    }
+} 
+
+
+
+
+
+
